@@ -6,7 +6,11 @@ public class Studienberatung{
 		System.out.println("Hast du Abitur?");
 		String antwort = scanner.nextLine();
 		if(antwort.equalsIgnoreCase("n")){
-			System.out.println("Schade");
+			System.out.println("Hast du Fachabitur?");
+			antwort = scanner.nextLine();
+			if(antwort.equalsIgnoreCase("n")){
+				
+			}
 		}
 	}
 }
