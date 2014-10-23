@@ -9,7 +9,7 @@ public class Studienberatung{
 			System.out.println("Hast du Fachabitur?");
 			antwort = scanner.nextLine();
 			if(antwort.equalsIgnoreCase("n")){
-				
+				//Antwort
 			}
 		}
 	}
